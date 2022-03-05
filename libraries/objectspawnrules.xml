@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- xenon space -->
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_s_02_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_s_03_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_s_04_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_s_05_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_m_02_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_m_03_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_m_04_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@owner="xenon"]/select[@macro="env_ast_crystal_detail_m_05_macro"]/@cooldown' />
+  
+  <!-- hazardous region -->
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_02_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_03_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_04_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_05_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_02_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_03_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_04_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="true"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_05_macro"]/@cooldown' />
+  
+  <!-- general -->
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_02_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_03_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_04_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_s_05_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_02_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_03_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_04_macro"]/@cooldown' />
+  <remove sel='/objectspawnrules/regions/rule[@fieldtype="asteroid"][@hazardousregion="false"][not(@owner="xenon")]/select[@macro="env_ast_crystal_detail_m_05_macro"]/@cooldown' />
+</diff>

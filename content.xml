@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="ws_2773969876" name="Crystal Cooldown Remover" description="Removes cooldowns for crystal mining, which were added in a previous game version to reduce the profits from mining crystals.&#10;&#10;Save compatible." author="draeath" version="100" date="2022-03-05" enabled="1" sync="false" save="false" lastupdate="1646522197">
+  <text language="44" name="Crystal Cooldown Remover" description="Removes cooldowns for crystal mining, which were added in a previous game version to reduce the profits from mining crystals.&#10;&#10;Save compatible." author="draeath"/>
+  <text language="49" name="Kristall-Cooldown-Entferner" description="Entfernt Abklingzeiten für den Kristallabbau, die in einer früheren Spielversion hinzugefügt wurden, um die Gewinne aus dem Abbau von Kristallen zu verringern.&#10;&#10;Kompatibel speichern." author="draeath"/>
+</content>
